@@ -1,0 +1,172 @@
+#include <iostream>
+#include <cmath>
+using namespace std;
+int main(){
+int num;
+cout<<"enter question ";
+cin>>num;
+if(num == 1){
+    for(int i= 1; i<=50;i+=2){
+       cout<<"square root = "<< sqrt(i)<<endl;
+    }
+}
+else if(num ==2 ){
+    int n,factorial=1,j,fac = 1;
+    cout<<"enter number for factorial ";
+    cin>> n;
+    for(int i = 1 ; i <= n;i++){
+       factorial = factorial * i;
+    }
+    cout<<factorial;
+    cout<<" another factorial?";
+    cin>>j;
+    if(j == 1){
+    cout<<"enter number for factorial ";
+    cin>> n;
+    for(int i = 1 ; i <= n;i++){
+       fac = fac * i;
+    }
+    cout<<fac;
+    }
+    else if (j == 0){
+      return 0;
+    }
+}
+else if(num == 3){
+    int num1,num2,result;
+    cout<<"enter exponent"<<endl;
+    cin>>num2;
+    cout<<"enter base number";
+    cin>>num1;
+    result = pow(num1,num2);
+    cout<<"result is = "<<result;
+}
+else if (num == 4){
+   int num,length,t;
+   cout<<"enter table "<<endl;
+   cin>>num;
+   cout<<"enter length "<<endl;
+   cin>> length;
+   for(int i = 1 ; i <= length;i++){
+      t = num * i;
+      cout<<"5 x "<<i << "= "<< t<<endl;
+   }
+}
+else if ( num == 5){
+   int floors,total,occupied,unoccupied;
+   float sum1=0,sum2=0,sum3=0,percent;
+   cout<<"enter floors ";
+   cin>> floors;
+   if(floors == 13){
+      cout<<"enter again";
+      cin>>floors;
+   }
+   for( int i = 1 ; i <= floors;i++){
+      cout<<"enter rooms for each floor ";
+      cin>>total;
+      sum1 = sum1 + total;
+      cout<<"how many occupied?";
+      cin>>occupied;
+      sum2 = sum2 + occupied;
+      unoccupied = total - occupied;
+      sum3 = sum3 + unoccupied;
+   }
+   cout<<" the total rooms = "<< sum1<<endl;
+   cout<<" the total occupied rooms = "<< sum2<< endl;
+   cout<<" the total unoccupied rooms = "<< sum3<< endl;
+   percent= (sum2 / sum1) * 100;
+   cout<<"percentage of rooms occupied = "<<percent;
+}
+else if (num == 6){
+   int start,end;
+   cout<<"enter starting number"; cin>> start;
+   cout<<"enter ending number ";cin>> end;
+   for(int i = start; i >= end; i--){
+    for( int j = end ; j <= i;j++){
+      cout<<i;
+    }
+     cout<<endl;
+   }
+}
+else if (num == 7){
+   int n,power= 0,sum = 0;
+   cout<<"enter n";cin>>n;
+   if(n <= 0 ){
+      cout<<"enter again! ";cin>>n;
+   }
+   for(int i = 1; i < n; i++){
+   power = pow(i,2);
+   cout<< i << "^2 + ";
+   sum = sum + power;
+   cout<<sum<<endl;
+   }
+   power = pow(n,2);
+   sum = sum + power;
+   cout<< n << "^2";
+   cout<< " = "<< sum;
+}
+else if ( num==8){
+   int rows,col;
+   cout<<"enter rows";cin>>rows;
+   cout<<"enter columns";cin>>col;
+   for( int i = 1 ; i <= rows;i++){
+     for(int j = 1; j<=col;j++){
+      if(i == 1|| i == rows){
+         
+         if(j % 8 == 0){
+            cout<<" ";
+         }
+         else {
+           cout<<"=";
+          }
+      }
+      else{
+         if ( j == 1|| j == col){
+         cout<<"=";
+        }
+      else{
+         cout<<" ";
+         }
+      } 
+      
+   }
+    cout<<endl;
+   }
+}
+else if (num == 9){
+   int s= 100,sum = 0,n;
+   int array[s];
+   cout<<"enter n";
+   cin>>n;
+   for(int i = 0;i<= n;i++ ){
+      cout<<"enter numbers for array";
+      cin >> array[i];
+      sum = sum + array[i];
+   }
+   cout<<"the sum is = "<<sum;
+   }
+else if( num == 10){
+   int s= 100,sum = 0,n;
+   int array[s];
+   cout<<"enter n";
+   cin>>n;
+   for(int i = 0;i< n;i++ ){
+      cout<<"enter numbers for array"<<endl;
+      cin >> array[i];
+   }
+   for(int i = 0;i< n;i++ ){
+      cout<<array[i];
+   }
+   cout<<endl;
+    int k = n - 1;
+     for (int i = 0 ; k >= i; i ++ , k--){
+      int temp = array[i] ;
+      array[i] = array[k];
+      array[k]= temp;
+      
+    }  
+    for (int i = 0 ;  i < n; i ++)   {
+        cout <<array[i];
+    }
+}
+}
