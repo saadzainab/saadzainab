@@ -1,0 +1,36 @@
+#include <iostream>
+using namespace std;
+void print5stable(){
+    for (int i = 1 ; i <= 10;i++){
+        int t = 5 * i;
+        cout <<"5 x "<< i <<"="<< t<<endl;
+    }
+}
+int seriesSum(){
+  int s=0;
+  for (int i = 0 ; i < 1000;i++){
+    s= s + i;
+   }
+  return s;
+}
+int sumBetween(int x,int y){
+    int sum = 0;
+   for (int i = x; i <= y;i++){
+      sum = sum + i;
+   }
+   return sum;
+}
+
+int f2 (){
+    int array[1000];
+    int sum = 0;
+    for (int i = 0; i < 1000;i++ ){
+        array[i] = sumBetween(2,i+5);
+        cout<<array[i]<<endl;
+        sum = sum + array[i];
+    }
+    float avg;
+    avg = sum / 1000;
+    cout<<"average = "<<avg;
+    
+}
