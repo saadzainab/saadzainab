@@ -1,6 +1,6 @@
 - 👋 Hi, I’m @saadzainab
 - 👀 I’m interested in coding and technology
-- 🌱 I’m currently learning C++, visualbasic.net
+- 🌱 I’m currently learning C, C++, and Visual Basic. NET
 - 💞️ I’m looking to collaborate on open-source projects
 - 📫 How to reach me via email at zainabsaad3075@gmail.com
 
