@@ -18,13 +18,7 @@ Data Structures & Algorithms
 
 Databases
 
-Web Development
-
-HTML, CSS, JavaScript
-
-React.js
-
-Node.js & Express.js
+HTML CSS 
 
 📌 Featured Projects
 
