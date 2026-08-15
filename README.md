@@ -1,53 +1,58 @@
-I’m Zainab Saad
+# Hi, I'm Zainab Saad 👋
 
-🎓 Computer Science Undergraduate 
+🎓 **Computer Science Undergraduate | AI/ML & Computer Vision Enthusiast**
 
-I’m a Computer Science student with a strong foundation in programming, problem-solving, and web development. I enjoy working on structured projects that help me strengthen my understanding of core computer science concepts and their real-world applications.
+I'm a Computer Science student who enjoys building practical projects and exploring **Artificial Intelligence, Machine Learning, Computer Vision, and software development**.
 
-🛠️ Technical Skills
+I like learning by building — from web applications and machine learning models to real-time computer vision projects.
 
-Programming Languages
+## 🛠️ Skills
 
-C, C++, JavaScript
+**Languages:**
+Python • C++ • C • JavaScript
 
-Core CS Concepts
+**AI / ML:**
+Machine Learning • Deep Learning • Computer Vision • NLP
 
-Object-Oriented Programming (OOP)
+**Libraries & Frameworks:**
+PyTorch • TensorFlow/Keras • OpenCV • MediaPipe • YOLO • Scikit-learn • Pandas • NumPy
 
-Data Structures & Algorithms
+**Web Development:**
+React • Node.js • Express • Flask • HTML • CSS
 
-Databases
+**Core CS:**
+Data Structures & Algorithms • OOP • Databases • Operating Systems • Computer Networks
 
-HTML CSS 
+## 📌 Featured Projects
 
-📌 Featured Projects
+🚗 **Vehicle Tracking System**
+YOLO + ByteTrack based system for detecting, tracking, and counting vehicles in videos.
 
-These are projects you can find directly on my GitHub:
+😴 **Driver Drowsiness Detection**
+Real-time drowsiness detection using MediaPipe facial landmarks and Eye Aspect Ratio.
 
-Library Management System (React + Node.js)
-A full-stack web application with a React frontend and a Node.js/Express backend, focused on CRUD operations and a clean UI structure.
+🧠 **AI Study Assistant**
+AI-powered study tool using React, FastAPI, LLMs, PDF processing, and computer vision.
 
-Academic Practice Repositories
-Repositories containing coursework, lab work, personal websites, and practice implementations related to core CS subjects.
+🚘 **Used Car Price Prediction**
+Machine learning project using Pakistani used-car data, with Random Forest achieving an R² score of ~0.96.
 
-🌱 Currently Learning
+🛍️ **Liyaan — Shopping Website**
+Full-stack e-commerce website built with React and Node.js, featuring a structured frontend, backend integration, and shopping functionality.
 
-Programming in Python
+## 🌱 Currently Learning
 
-Modern web development (React, Node.js, Express)
+* Deep Learning
+* Transformers & NLP
+* Computer Vision
+* Cybersecurity & Network Security
+* MLOps
 
-Cybersecurity fundamentals
+## 📫 Connect With Me
 
-Networking concepts
+📧 **Email:** [zainabsaad3075@gmail.com](mailto:zainabsaad3075@gmail.com)
+🔗 **LinkedIn:** [linkedin.com/in/zainab-saad](https://linkedin.com/in/zainab-saad)
 
-🤝 Open to Collaboration
+---
 
-Beginner-friendly open-source projects
-
-Academic and learning-based software projects
-
-📫 Contact Me
-
-📧 Email: zainabsaad3075@gmail.com
-
-🔗 LinkedIn: [linkedin.com/in/zainab-saad](https://www.linkedin.com/in/zainab-saad)
+⭐ Thanks for visiting my profile!
